@@ -1,0 +1,46 @@
+- generic [active] [ref=f1e1]:
+  - generic [ref=f1e2]:
+    - link [ref=f1e3] [cursor=pointer]:
+      - /url: https://sleekflow.io/en
+    - generic [ref=f1e5]: English
+  - generic [ref=f1e10]:
+    - generic [ref=f1e14]:
+      - generic [ref=f1e15]:
+        - heading "Collaborate on key conversations" [level=1] [ref=f1e18]
+        - generic [ref=f1e19]: Combine all your messaging channels into one and work together efficiently across teams through automatic chat assignment and internal notes.
+      - generic [ref=f1e20]:
+        - heading "Scale with powerful integrations" [level=1] [ref=f1e23]
+        - generic [ref=f1e24]: Merge data and functions from Salesforce, HubSpot, and more. Power up workflows through enhanced re-marketing, targeted promotions, and view customer data in real-time.
+      - generic [ref=f1e25]:
+        - heading "Broadcast messages with WhatsApp Business API" [level=1] [ref=f1e28]
+        - generic [ref=f1e29]: Blast personalized, promotional WhatsApp messages to customers. Automatically segment, filter, and label clients based on purchase behavior.
+      - generic [ref=f1e30]:
+        - heading "Get paid instantly in the chat" [level=1] [ref=f1e33]
+        - generic [ref=f1e34]: Connect to your e-commerce shop or import catalogs to SleekFlow. Provide a friction-free buying experience by creating Payment Links for your customers in chats.
+    - main [ref=f1e44]:
+      - generic [ref=f1e47]:
+        - generic [ref=f1e48]:
+          - heading "Welcome back" [level=1] [ref=f1e49]
+          - paragraph [ref=f1e51]: Sign in to continue to SleekFlow
+        - generic [ref=f1e52]:
+          - generic [ref=f1e55]:
+            - generic [ref=f1e60]:
+              - generic [ref=f1e61]: Email or username *
+              - textbox "Email or username" [ref=f1e62]
+            - button "Continue" [ref=f1e64] [cursor=pointer]
+          - paragraph [ref=f1e66]:
+            - text: Don't have an account?
+            - link "Sign up" [ref=f1e67] [cursor=pointer]:
+              - /url: /u/signup/identifier?state=hKFo2SBsMThWVlJXeE04OGR1SDc5R1VkZ3NXTmJWbmloS3YwVKFur3VuaXZlcnNhbC1sb2dpbqN0aWTZIGhrT3BoQkhHaE0tWU5NZmotY3V6LUFNN1pZYmhCMFpzo2NpZNkgSkY2SGVTMUV4aFlSOHppZzhMNFRxdUlvMVhLTVZTaUM&ui_locales=en
+          - generic [ref=f1e68]: OR
+          - generic [ref=f1e70]:
+            - button "Continue with Google" [ref=f1e72] [cursor=pointer]
+            - button "Continue with Apple" [ref=f1e76] [cursor=pointer]
+  - contentinfo [ref=f1e79]:
+    - list [ref=f1e82]:
+      - listitem [ref=f1e83]:
+        - link "Terms and Conditions" [ref=f1e84] [cursor=pointer]:
+          - /url: https://sleekflow.io/archive-terms/2026-05-07
+      - listitem [ref=f1e85]:
+        - link "Privacy Policy" [ref=f1e86] [cursor=pointer]:
+          - /url: https://sleekflow.io/en/privacy
