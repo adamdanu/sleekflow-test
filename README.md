@@ -42,12 +42,13 @@ We can use `--debug` to look for the locator or using MCP to explore the site un
 
 ### How do you handle asynchronous events, such as waiting for a confirmation message or a redirect after login?
 
-Playwright already have auto-waits for actionability on every action, and web-first assertions:
+Playwright already have auto-waits and auto-retry for actionability on every action, and web-first assertions:
 
 ```typescript
 await expect(loginPage.page).toHaveURL(
     /app\.sleekflow\.io\/en\/(inbox\/?screen_hint=login|onboarding\/shared-inbox-checklist)/
-);
+,
+      { timeout: 15_000 });
 
 await expect(loginPage.emailOrUsernameField).toBeHidden();
 ```
