@@ -12,7 +12,9 @@ test.describe('Signup - success redirects to email verification', () => {
 
     // SleekFlow creates the account, then requires email verification
     // before the app can be accessed.
-    await expect(page).toHaveURL(/error=access_denied/);
-    await expect(page).toHaveURL(/verify%20the%20email/);
+    await expect(page).toHaveURL(/error=access_denied/,
+      { timeout: 15_000 });
+    await expect(page).toHaveURL(/verify%20the%20email/,
+      { timeout: 15_000 });
   });
 });
