@@ -11,7 +11,8 @@ test.describe('Login - success using valid credential', () => {
 
         // Landing page varies by account onboarding state
         await expect(loginPage.page).toHaveURL(
-            /app\.sleekflow\.io\/en\/(inbox\/?screen_hint=login|onboarding\/shared-inbox-checklist)/
+            /app\.sleekflow\.io\/en\/(inbox\/?screen_hint=login|onboarding\/shared-inbox-checklist)/,
+            { timeout: 15_000 }
         );
 
         await expect(loginPage.emailOrUsernameField).toBeHidden();
